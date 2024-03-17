@@ -1,0 +1,431 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    position: sticky;
+}
+
+.headerBox {
+    width: 100%;
+    height: 100%;
+    background-color: #F8F9FA;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.headerBox1 {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.iconBox {
+    width:40%;
+    height: 100%;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+
+.iconBtn {
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.iconBtn:hover {
+    color: red;
+}
+
+.contactBox {
+    width:60%;
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.contactBox p i {
+    color: red;
+    cursor: pointer;
+}
+
+.contactBox p i:hover {
+    color: brown;
+    cursor: pointer;
+}
+
+.contactBox p h4 {
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 10px;
+}
+
+.contactBox h4:hover {
+    color: brown;
+    cursor: pointer;
+}
+
+/* //////  /////////////////////// */
+.header1 {
+    width: 100%;
+    height: 70px;
+    position:sticky;
+    top: 0;
+    background-color: white;
+}
+
+#headerBox {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+#headerBox1 {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav .hamburgerlogo i {
+    display: none;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: brown;
+    cursor: pointer;
+}
+nav {
+    width:50%;
+    height: 100%;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.yazi {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.yazi p {
+    width:7px;
+    height:7px;
+    background-color: firebrick;
+    margin-top:10px;
+    cursor: pointer;
+
+}
+
+.yazi h1 {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    cursor: pointer;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+
+section {
+    background-image: url(../IMAGE/hero_2\ \(1\).jpg);
+    background-attachment: fixed;
+    min-height: 90vh;
+    background-position: center-top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content:flex-start;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.yazibox {
+    height:280px;
+    width:70%;
+    margin-top: 80px;
+    margin-right:200px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    /* margin-left: 45px; */
+}
+
+.yazziiBox  {
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+
+.yazziiBox h1 {
+    font-size: 100px;
+    color: white;
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.yazziiBox h2 {
+    font-size: 20px;
+    color: white;
+    width:70%;
+    font-family: "Nokora", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.btnBox  {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    width:50%;
+    justify-content: flex-start;
+    gap: 5px;
+    background-color: transparent;
+    /* padding:15px 40px; */
+
+
+}
+
+.btnBox Button {
+    cursor: pointer;
+    /* padding: 15px 50px;
+    gap: 40px; */
+}
+
+.btnBox .bbbtn {
+    background-color: transparent;
+    border: 2px solid white;
+    margin-left: 10px;
+    padding: 15px 40px;
+    color: white;
+    font-weight: 10px;
+}
+.btnBox .bbbtn:hover {
+     background-color: white;
+     color: black;
+}
+
+.btnBox .btnn {
+    background-color: white;
+     border: 2px solid white;
+     padding: 15px 50px;
+     font-size: 15px;
+}
+
+.btnBox .btnn:hover {
+    background-color:transparent;
+    color: white;
+}
+
+
+
+
+
+/* ////////////////////////////////// */
+
+
+/* ////////////////////////////////// */
+/* //////container////////////////////////// */
+.container {
+    width: 100%;
+    height:220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerBox {
+    width: 80%;
+    height:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerBox1 {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.containerBox1 h3 {
+    color: #ADB5BD;
+    font-family: "Nokora", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.containerBox1 h2 {
+    color: #000000;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.containerBox1 p {
+    width: 70%;
+    color: #808080;
+    font-family: "Nokora", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+/* //////////////////////////////////////////////////// */
+
+
+#sekillogo {
+    height: 100vh;
+}
+
+.sekillogo {
+    width:100% ;
+    height:90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.sekilyazi {
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sekilyazi .sekil {
+    background-image: url(../IMAGE/model_1_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+}
+
+.sekilyazi .sekil:hover {
+    border:15px solid orange;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.yazilar {
+    width: 90%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.yazilar a {
+    text-decoration: none;
+    color: black;
+}
+.yazilar p {
+    text-align: center;
+}
+
+.btntn  {
+    width:90%;
+    height:10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.yaziimg {
+    display: flex;
+    gap: 10px;
+}
+.yaziimg i {
+    color: yellow;
+}
+
+.yaziimg .class {
+    color: #F6F6F6;
+}
+
+.yaziimg .class:hover {
+    color: red;
+}
+
+.btntn button {
+    padding:5px 15px;
+}
+.btntn1 {
+    background-color: black;
+    color: white;
+}
+
+.btntn1:hover {
+    background-color:white;
+    border: 2px solid black;
+    color: black;
+}
+
+.btntn2 {
+    margin-left: 10px;
+    background-color:white;
+    border: 2px solid black;
+    color: black;
+}
+
+.btntn2:hover {
+    background-color: black;
+    color: white;
+}

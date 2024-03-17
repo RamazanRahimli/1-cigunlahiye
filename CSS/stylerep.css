@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:300px) and (max-width:991px) {
+    /* ////// */
+    .contactBox h4 {
+        display: none;
+    }
+
+    .contactBox {
+        display: flex;
+        justify-content: flex-end;
+        gap: 15px;
+    }
+    /* ///////// */
+    nav a {
+        display:none;
+    }
+
+    nav .hamburgerlogo i {
+        display: block;
+    }
+
+    .yazziiBox h1 {
+        font-size: 50px;
+        /* margin-right: 80px; */
+    }
+
+    .yazziiBox h2 {
+        font-size: 20px;
+        /* margin-left: 20px; */
+    }
+/* /////////////////////////////////// */
+    .yazziiBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+    }
+
+    .btnBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        /* margin-bottom: 50px; */
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .yazibox {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:center;
+    }
+
+    .yazziiBox h1 {
+        font-size: 50px;
+
+    }
+
+    .yazziiBox h2 {
+        font-size: 20px;
+    }
+/* ////////////////////////////////////////////// */
+
+    .containerBox1 h2 {
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .containerBox1 p {
+        text-align: center;
+        gap: 10px;
+        display: flex;
+        cursor: pointer;
+    }
+
+    
+}
+/* /////////////////////////////////////////////// */
+
+@media screen and (min-width:575px) and (max-width:767px){
+  
+    .yazziiBox h1 {
+        font-size: 50px;
+        margin-right: 80px;
+    }
+
+    .yazziiBox h2 {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .yazziiBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+    }
+
+    .btnBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        margin-bottom: 50px;
+    }
+
+    .btnBox .bbbtn {
+        padding:15px 35px;
+    }
+
+    .btnBox .btnn {
+        padding:15px 35px;
+        margin-top: 10px;
+    }
+
+    .sekilyazi {
+        min-width:45%;
+    }
+}@media screen and (min-width:300px) and (max-width:575px) {
+    .yazibox {
+        height:280px;
+        width:70%;
+        margin-bottom: 70px;
+        /* background-color: blue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        /* margin-left: 45px; */
+    }
+    
+    .yazziiBox  {
+        width:80%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    
+    }
+    
+    .yazziiBox h1 {
+        font-size: 35px;
+        color: white;
+        font-family: "Ultra", serif;
+        font-weight: 400;
+        font-style: normal;
+        cursor: pointer;
+        margin-right: 50px;
+    }
+    
+    .yazziiBox h2 {
+        font-size: 20px;
+        color: white;
+        width:100%;
+        font-family: "Nokora", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        cursor: pointer;
+        margin-left: 25px;
+    }
+    
+    .btnBox  {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        width:50%;
+        justify-content: flex-start;
+        gap: 5px;
+        background-color: transparent;
+        /* padding:15px 40px; */
+    
+    
+    }
+    
+    .btnBox Button {
+        cursor: pointer;
+        /* padding: 15px 50px;
+        gap: 40px; */
+    }
+    
+    .btnBox .bbbtn {
+        background-color: transparent;
+        border: 2px solid white;
+        margin-left: 10px;
+        padding: 10px 200px;
+        color: white;
+        font-weight: 10px;
+        margin-left: 198px;
+    }
+    .btnBox .bbbtn:hover {
+         background-color: white;
+         color: black;
+    }
+    
+    .btnBox .btnn {
+        background-color: white;
+         border: 2px solid white;
+         padding: 10px 170px;
+         font-size: 15px;
+         margin-left: 198px;
+    }
+    
+    .btnBox .btnn:hover {
+        background-color:transparent;
+        color: white;
+    }
+
+    .sekilyazi {
+        min-width:90%;
+    }
+    
+}
